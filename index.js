@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const bcrypt = require('bcrypt')
 const meow = require('meow')
 const { cyan } = require('chalk')
