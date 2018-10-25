@@ -1,0 +1,20 @@
+{
+  "name": "@ianwalter/ianwalter",
+  "version": "0.0.0",
+  "description": "Generate bcrypt hashes from the command-line",
+  "main": "index.js",
+  "bin": {
+    "bcrypt": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "keywords": [],
+  "author": "Ian Walter <public@iankwalter.com> (https://iankwalter.com)",
+  "license": "Apache 2.0 with Commons Clause",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "chalk": "^2.4.1",
+    "meow": "^5.0.0"
+  }
+}
