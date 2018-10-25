@@ -1,6 +1,6 @@
 {
   "name": "@ianwalter/bcrypt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate bcrypt hashes from the command-line",
   "main": "index.js",
   "bin": {
