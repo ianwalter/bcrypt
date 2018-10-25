@@ -1,5 +1,5 @@
 {
-  "name": "@ianwalter/ianwalter",
+  "name": "@ianwalter/bcrypt",
   "version": "1.0.0",
   "description": "Generate bcrypt hashes from the command-line",
   "main": "index.js",
