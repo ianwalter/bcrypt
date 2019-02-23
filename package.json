@@ -2,16 +2,19 @@
   "name": "@ianwalter/bcrypt",
   "version": "1.0.1",
   "description": "Generate bcrypt hashes from the command-line",
-  "main": "index.js",
+  "main": "dist/index.js",
   "bin": {
-    "bcrypt": "index.js"
+    "bcrypt": "dist/index.js"
   },
   "scripts": {
     "lint": "eslint --ext js index.js",
+    "pretest": "dist --inline",
     "test": "./index.js cutcopy & ./index.js oceanblue 14"
   },
   "keywords": [
-
+    "bcrypt",
+    "cli",
+    "hash"
   ],
   "author": "Ian Walter <public@iankwalter.com> (https://iankwalter.com)",
   "license": "SEE LICENSE IN LICENSE",
@@ -21,6 +24,9 @@
     "meow": "^5.0.0"
   },
   "devDependencies": {
+    "@ianwalter/dist": "^3.0.0",
+    "@ianwalter/execa-helper": "^1.0.0",
+    "ava": "^1.2.1",
     "eslint": "^5.14.1",
     "eslint-config-standard": "^11.0.0",
     "eslint-plugin-import": "^2.16.0",

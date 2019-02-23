@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 
-const bcrypt = require('bcrypt')
-const meow = require('meow')
-const { cyan } = require('chalk')
+import bcrypt from 'bcrypt'
+import meow from 'meow'
+import { cyan } from 'chalk'
 
-const run = async () => {
+async function runBcrypt () {
   const cli = meow(`
   Usage
     bcrypt <password> <rounds?>
@@ -20,4 +20,4 @@ const run = async () => {
   console.log(cyan(`\n  🔑 ${hash}`))
 }
 
-run()
+runBcrypt()
