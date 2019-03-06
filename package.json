@@ -10,9 +10,7 @@
     "lint": "eslint --ext js index.js",
     "test": "./index.js cutcopy & ./index.js oceanblue 14"
   },
-  "keywords": [
-
-  ],
+  "keywords": [],
   "author": "Ian Walter <public@iankwalter.com> (https://iankwalter.com)",
   "license": "SEE LICENSE IN LICENSE",
   "dependencies": {
@@ -21,17 +19,12 @@
     "meow": "^5.0.0"
   },
   "devDependencies": {
-    "eslint": "^5.15.0",
-    "eslint-config-standard": "^11.0.0",
-    "eslint-plugin-import": "^2.16.0",
-    "eslint-plugin-node": "^8.0.0",
-    "eslint-plugin-promise": "^4.0.1",
-    "eslint-plugin-standard": "^4.0.0"
+    "@ianwalter/eslint-config": "^1.0.0"
   },
   "eslintConfig": {
     "root": true,
     "extends": [
-      "standard"
+      "@ianwalter/eslint-config"
     ]
   }
 }
