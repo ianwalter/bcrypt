@@ -23,7 +23,7 @@
     "meow": "^5.0.0"
   },
   "devDependencies": {
-    "@ianwalter/eslint-config": "^1.0.0"
+    "@ianwalter/eslint-config": "^1.1.0"
   },
   "eslintConfig": {
     "root": true,
