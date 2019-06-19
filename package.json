@@ -28,7 +28,7 @@
   "eslintConfig": {
     "root": true,
     "extends": [
-      "@ianwalter/eslint-config"
+      "@ianwalter"
     ]
   }
 }
